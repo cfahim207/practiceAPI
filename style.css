@@ -29,3 +29,56 @@
   background-color: yellow;
   color: black;
 }
+
+.mealinfo {
+  text-align: center;
+  width: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  padding: 20px;
+  border-radius: 6px;
+  background-color: aliceblue;
+  transition: transform 0.4s, top;
+}
+
+/* .modal-section {
+  visibility: hidden;
+} */
+.modalclose {
+  visibility: hidden;
+  top: 0;
+  transform: translate(-50%, -50%) scale(0.1);
+}
+
+.modalimg {
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px gray;
+}
+
+.mealinfo h2 {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 15px 0 10px;
+}
+.mealinfo h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0 5px;
+}
+
+.modalbtn {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px 0;
+  background: #f14e2e;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 4px 4px 8px gray;
+}
